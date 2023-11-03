@@ -23,6 +23,8 @@ persist-queue = "*"
 click = "^8.0"
 tabulate = "*"
 typing-extensions = "*"
+keyring = "*"
+cryptography = "*"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0"
