@@ -3,6 +3,7 @@
 [[package]]
 name = "astroid"
 version = "3.0.1"
+
 description = "An abstract syntax tree for Python with inference support."
 optional = false
 python-versions = ">=3.8.0"
@@ -749,12 +750,15 @@ description = "A thread-safe disk based persistent queue in Python."
 optional = false
 python-versions = "*"
 files = [
-    {file = "persist-queue-0.8.1.tar.gz", hash = "sha256:e1938d3ac6d9b61692c115f8ddcada8d9a31f22506782585e39588a41ecfa5aa"},
-    {file = "persist_queue-0.8.1-py2.py3-none-any.whl", hash = "sha256:9ea2c2fa80edc1ce9f683665c3ebe78bbe71d08868206d0c67a81135182a19f9"},
+    {file = "persist_queue-0.8.1-py2.py3-none-any.whl", hash = "sha256:1f2bbbbaac130d4833b255cfe6f3dd94ccc84e601bf520e948b2ae7f8ba4fd84"},
 ]
 
 [package.extras]
 extra = ["DBUtils (<3.0.0)", "PyMySQL", "cbor2 (>=5.2.0)", "msgpack (>=0.5.6)"]
+
+[package.source]
+type = "file"
+url = "persist_queue-0.8.1-py2.py3-none-any.whl"
 
 [[package]]
 name = "pkgutil-resolve-name"
